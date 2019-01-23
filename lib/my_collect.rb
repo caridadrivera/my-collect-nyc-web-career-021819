@@ -9,7 +9,7 @@ i = 0
 myNewCollection = []
 
 while i < array.length
-  myNewCollection << yield (array[i])
+  myNewCollection << yield(array[i])
 i += 1
 
  end
