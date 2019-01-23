@@ -6,7 +6,7 @@ def my_collect(array)
 
 i = 0
   while i < array.length
-  yield firstNames<< (array[i])
+  yield firstNames << (array[i])
 i += 1
   end
  firstNames
