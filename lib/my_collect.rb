@@ -2,15 +2,14 @@
 #Control the return value of a method that uses yield such that it returns a new collection.
 
 def my_collect(array)
- modifiedElements = []
+
  newArr = array.split(" ").first
 
 i = 0
-
-  while i < array.length
-  yield (newArr[i])
+while i < array.length
+  yield(newArr[i])
 i += 1
 
  end
- return modifiedElements
+ return newArr
 end
