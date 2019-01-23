@@ -3,10 +3,11 @@
 
 def my_collect(array)
 
+myNewCollection = []
 
 i = 0
 while i < array.length
-  yield(array[i]).first
+  yield myNewCollection << (array[i])
 i += 1
 
  end
