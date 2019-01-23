@@ -3,13 +3,11 @@
 
 def my_collect(array)
 
- newArr = array.split(" ").first
-
 i = 0
 while i < array.length
-  yield(newArr[i])
+  yield(array[i])
 i += 1
 
  end
- return newArr
+ 
 end
