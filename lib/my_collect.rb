@@ -2,12 +2,15 @@
 #Control the return value of a method that uses yield such that it returns a new collection.
 
 def my_collect(array)
- firstNames = []
+ modifiedElements = []
+ newArr = array.split(" ").first
 
 i = 0
+
   while i < array.length
-  yield firstNames << (array[i])
+  yield modifiedElements << (newArr[i])
 i += 1
-  end
- firstNames
+
+ end
+ return modifiedElements
 end
