@@ -8,7 +8,7 @@ def my_collect(array)
 i = 0
 
   while i < array.length
-  yield modifiedElements << (newArr[i])
+  yield (newArr[i])
 i += 1
 
  end
