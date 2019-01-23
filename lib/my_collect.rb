@@ -3,9 +3,11 @@
 
 def my_collect(array)
 
-myNewCollection = []
 
 i = 0
+
+myNewCollection = []
+
 while i < array.length
   myNewCollection << yield (array[i])
 i += 1
