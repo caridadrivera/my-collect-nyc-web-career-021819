@@ -3,6 +3,8 @@
 
 def my_collect(array)
 
+modElements =[]
+
 i = 0
 while i < array.length
   yield(array[i])
