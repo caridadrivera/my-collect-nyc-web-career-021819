@@ -10,7 +10,6 @@ while i < array.length
   yield (array[i])
 i += 1
 
-  myNewCollection << array[i]
  end
  myNewCollection
 end
